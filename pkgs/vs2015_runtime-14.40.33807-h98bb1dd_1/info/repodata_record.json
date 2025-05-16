@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "h98bb1dd_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "fn": "vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
+  "license": "",
+  "md5": "eb3566bfee017cb6cf82bd7c41441586",
+  "name": "vs2015_runtime",
+  "platform": "win32",
+  "sha256": "4eb1d09b250ffd93ea0616328fa318e8d616afe3981fd5c7d179a5cdab8b7336",
+  "size": 1354377,
+  "subdir": "win-64",
+  "timestamp": 1726064391000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
+  "version": "14.40.33807"
+}

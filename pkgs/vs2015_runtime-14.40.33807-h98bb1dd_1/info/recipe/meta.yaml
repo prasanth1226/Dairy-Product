@@ -1,0 +1,30 @@
+# This file created by conda-build 24.7.1
+# ------------------------------------------------
+
+package:
+  name: vs2015_runtime
+  version: 14.40.33807
+build:
+  missing_dso_whitelist:
+    - '*.DLL'
+    - '*.dll'
+  no_link:
+    - '*.dll
+
+      '
+    - Library/bin/*.dll
+  number: 1
+  string: h98bb1dd_1
+requirements:
+  build:
+    - vswhere 2.8.4 haa95532_0
+  run: []
+about:
+  summary: MSVC runtimes associated with cl.exe version 19.40.33813 (VS 2022 update
+    10)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: f79e1b41-4b1e-42d8-8e0a-d0dfeaa299e7
+  remote_url: git@github.com:AnacondaRecipes/vs2022-feedstock.git
+  sha: 54ee0a14cb81d8572eb89375c56b6c6cfa8bf369

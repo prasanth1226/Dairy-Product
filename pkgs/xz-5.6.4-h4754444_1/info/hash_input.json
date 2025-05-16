@@ -1,0 +1,7 @@
+{
+  "target_platform": "win-64",
+  "xz": "5",
+  "vc": "14",
+  "c_compiler": "vs2019",
+  "channel_targets": "defaults"
+}

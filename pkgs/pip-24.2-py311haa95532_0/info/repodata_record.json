@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "fn": "pip-24.2-py311haa95532_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "516c1ffe1a045a462323166a58318073",
+  "name": "pip",
+  "platform": "win32",
+  "sha256": "bd5e14bfc065483537ce70ec4ba421eebc1f379a03f2cd7708ffb655609a6b43",
+  "size": 3185416,
+  "subdir": "win-64",
+  "timestamp": 1723485404000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pip-24.2-py311haa95532_0.conda",
+  "version": "24.2"
+}

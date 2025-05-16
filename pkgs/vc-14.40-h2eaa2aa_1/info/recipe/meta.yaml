@@ -1,0 +1,35 @@
+# This file created by conda-build 24.7.1
+# ------------------------------------------------
+
+package:
+  name: vc
+  version: '14.40'
+build:
+  number: 1
+  string: h2eaa2aa_1
+  track_features:
+    - vc14
+requirements:
+  build: []
+  run:
+    - vs2015_runtime >=14.40.33807
+about:
+  description: 'This metapackage is used to enforce consistency of runtime
+
+    dependencies within an environment
+
+    '
+  dev_url: https://github.com/conda/conda/wiki/VC-features
+  doc_url: https://github.com/conda/conda/wiki/VC-features
+  home: https://github.com/conda/conda/wiki/VC-features
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: C:\b\abs_f72wyfgs20\clone\recipe/LICENSE
+  summary: A meta-package to impose mutual exclusivity among software built with different
+    VS versions
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: f79e1b41-4b1e-42d8-8e0a-d0dfeaa299e7
+  remote_url: git@github.com:AnacondaRecipes/vs2022-feedstock.git
+  sha: 54ee0a14cb81d8572eb89375c56b6c6cfa8bf369
